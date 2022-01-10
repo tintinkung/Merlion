@@ -1,0 +1,33 @@
+{
+    "bot_name" : "Merlion",
+    "prefix": {
+        "norminal": "$",
+        "special": {
+            "method": "regular expressions",
+            "full_regex": "^((hey +)|(oi +))?(((bot +|merlion +|someone +)?((pls +|please +)?(gib|give|send|sent|pls|please)))|pls|please|send|sent|gib|give)[,! ]",
+            "examples": [
+                "hey bot <command>",
+                "hey merlion pls <command>",
+                "hey merlion pls gib <command>",
+                "pls <command>",
+                "pls gib <command>",
+                "oi bot pls gib <command>",
+                "hey merlion please sent <command>"
+            ]
+        }
+    },
+    "owners": [
+        {
+            "name" : "Glowstone#3991",
+            "id" : "693455709081305128"
+        }, 
+        {
+            "name" : "CookieGMVN#9173",
+            "id" : "584411132769337440"
+        }, 
+        {
+            "name" : "dirtytin#5972",
+            "id" : "481786697860775937"
+        }
+    ]
+}
