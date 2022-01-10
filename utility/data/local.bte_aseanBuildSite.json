@@ -1,0 +1,86 @@
+{
+    "aseanbte_buildsites": {
+        "th": [
+            {   "name":"Rajamangala National Stadium & Ramkhamhaeng University",
+
+                "location":"2086 Soi Ramkhamhaeng 24 Intersection 18 Hua Mak Subdistrict, Bang Kapi District Bangkok 10240",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis quam quis posuere convallis. Mauris.",
+                "thumbnail":"https://i.imgur.com/J8eAfvL.png",
+                "bte_website":{
+                    "registered":"true",
+                    "id":"3554"
+                },
+                "coordinates":{
+                    "geographic":"13.758284334463546 100.6182593107222",
+                    "minecraft":"12308998 -2969994"
+                },
+                "type":"team",
+                "progress":{
+                    "build_count":"69",
+                    "last_seen":"dd/mm/yyyy",
+                    "status":"nearly done"
+                },
+                "builder":[
+                    {
+                        "user":"dirtytin#5972",
+                        "id":"481786697860775937"
+                    },
+                    {
+                        "user":"ArtmanderTH#9986",
+                        "id":"373443045485445122"
+                    }
+                ],
+                "manager":[
+                    {
+                        "user":"dirtytin#5972",
+                        "id":"481786697860775937"
+                    }
+                ],
+
+                "localized": {
+                    "name":"ราชมังคลากีฬาสถาน & มหาวิทยาลัยรามคำแหงหัวหมาก",
+                    "location":"2086 ซอย รามคำแหง 24 แยก 18 แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis quam quis posuere convallis. Mauris."
+                }
+            },
+            {   "name":"",
+                
+                "location":"",
+                "description":"",
+                "thumbnail":"",
+                "bte_website":{
+                    "registered":"true/false",
+                    "id":"-1/<id>"
+                },
+                "coordinates":{
+                    "geographic":"",
+                    "minecraft":""
+                },
+                "type":"team/solo",
+                "progress":{
+                    "build_count":"",
+                    "status":""
+                },
+                "builder":[
+                    {
+                        "user":"",
+                        "id":""
+                    }
+                ],
+                "manager":[
+                    {
+                        "user":"",
+                        "id":""
+                    }
+                ],
+
+                "localized": {
+                    "name":"",
+                    "location":"",
+                    "description":"",
+                    "status":""
+                }
+            }
+        ]
+    }
+}

@@ -10,10 +10,9 @@
 \* * * * * * * * * * * * * * * * * * * * * * * * */
 require("./lib/setup.js");
 const { LogLevel, SapphireClient } = require("@sapphire/framework");
-const { prefix, dbLoginURL } = require("./data/config.json");
-const { token, db } = require("./data/auth.json");
+const { prefix } = require("./data/config.json");
+const { token } = require("./data/auth.json");
 const { join } = require("path");
-const { InitDatabase } = require("./lib/setup.js");
 
 const client = new SapphireClient(
 	{
@@ -47,9 +46,6 @@ const client = new SapphireClient(
 		baseUserDirectory: __dirname
 	}
 );
-
-InitDatabase(dbLoginURL.replace("<username>", db.username).replace("<password>", db.password).replace("<databaseName>", db.databaseName));
-
 
 //#region main() login function.
 const main = async () => {

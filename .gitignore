@@ -4,5 +4,3 @@ node_modules
 auth.json*
 ### BuilsTheEarth Admin Token ###
 bte_token.json*
-### ignore all file with local.<filename>
-local.*
